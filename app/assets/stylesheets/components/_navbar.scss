@@ -1,12 +1,16 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+  height: 70px;
   position: relative;
 }
 
 // Transparent background for homepage
 .no-bg {
   background-color: transparent;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 // Logo on homepage
@@ -22,17 +26,16 @@
 
 
 .navbar-lewagon {
-  .navbar-nav {
+  .nav {
     align-items: center;
-    li {
-      &:last-child {
-        margin-left: 15px;
-      }
+  }
+  .nav > .nav-link {
+    color: $light-gray;
+    &:hover {
+      color: $red;
     }
   }
-  .nav-link {
-    font-family: $headers-font;
-    text-transform: uppercase;
-    font-size: 2em;
+  a:last-child {
+    margin-left: 15px;
   }
 }
