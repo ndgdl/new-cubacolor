@@ -9,5 +9,9 @@
     <%= render 'shared/flashes' %>
 
     <%= yield %>
+
+    <div class="container">
+      <%= debug(params) if Rails.env.development? %>
+    </div>
   </body>
 </html>
