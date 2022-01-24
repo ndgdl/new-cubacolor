@@ -1,12 +1,38 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+  position: relative;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+// Transparent background for homepage
+.no-bg {
+  background-color: transparent;
 }
 
+// Logo on homepage
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  border: solid 3px $red;
+  top: 10px;
+  left: 30px;
+}
+
+
+.navbar-lewagon {
+  .navbar-nav {
+    align-items: center;
+    li {
+      &:last-child {
+        margin-left: 15px;
+      }
+    }
+  }
+  .nav-link {
+    font-family: $headers-font;
+    text-transform: uppercase;
+    font-size: 2em;
+  }
 }
