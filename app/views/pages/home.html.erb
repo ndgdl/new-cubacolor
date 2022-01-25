@@ -8,14 +8,17 @@
 </div>
 
 <div class="container">
+  <h1 class="text-center mt-3">Découvrez Cuba</h1>
   <div class="discover">
-    <h1>Découvrez Cuba</h1>
-    <%= image_tag "photo1.jpg" %>
-    <p>Plages</p>
-    <%= image_tag "photo2.jpg" %>
-    <p>Culture</p>
-    <%= image_tag "photo3.jpg" %>
-    <p>Cigares</p>
+    <div class="discover-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_path 'photo1.jpg' %>);">
+      <p>Plages</p>
+    </div>
+    <div class="discover-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_path 'photo2.jpg' %>);">
+      <p>Culture</p>
+    </div>
+    <div class="discover-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_path 'photo3.jpg' %>);">
+      <p>Cigares</p>
+    </div>
   </div>
 
   <div class="guarantees">

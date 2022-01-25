@@ -1,0 +1,24 @@
+.discover {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.discover-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  p {
+    color: $yellow;
+    font-weight: bolder;
+    font-size: 1.5em;;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin: 0;
+  }
+}
