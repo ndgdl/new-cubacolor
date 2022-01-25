@@ -1,0 +1,32 @@
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  margin-top: 45px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  color: white;
+  background-color: grey;
+}
+
+/* universal */
+
+body {
+  background: white;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
