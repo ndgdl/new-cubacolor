@@ -1,0 +1,89 @@
+// INTRO "Qui sommes-nous ?"
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .intro-text {
+    display:flex;
+    flex-direction: column;
+    p:first-child {
+      margin-top: 32px;
+    }
+    a {
+      align-self: center;
+    }
+  }
+}
+
+
+// GUARANTEES "Pourquoi voyager avec Cubacolor ?"
+
+// Guarantees block
+.guarantees {
+  background-color: $yellow;
+  width: 100vw;         // to extend background
+  position: relative;   // to the edges
+  left: 50%;            // of the window
+  right: 50%;           // within the container
+  margin-left: -50vw;   //
+  margin-right: -50vw;  //
+  z-index: -1;          // bg underneath nav logo
+  h1 {
+    color: white;
+  }
+}
+
+// Guarantees cards
+.guarantees-list {
+  display: flex;
+  justify-content: space-evenly;
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 0;
+    i, p {
+      color: white;
+    }
+    i {
+      font-size: 64px;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+}
+
+
+// DISCOVER
+
+// Discover block
+.discover {
+  display: flex;
+  gap: 15px;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+// Discover card
+.discover-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  p {
+    color: $yellow;
+    font-weight: bolder;
+    font-size: 1.5em;;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin: 0;
+  }
+}
