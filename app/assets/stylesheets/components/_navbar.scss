@@ -25,18 +25,26 @@
   left: 30px;
 }
 
-
+// Align menu options and margin right before last
 .navbar-lewagon {
   .nav {
     align-items: center;
   }
-  .nav > .nav-link {
-    color: $light-gray;
-    &:hover {
-      color: $red;
-    }
-  }
   a:last-child {
     margin-left: 15px;
   }
+}
+
+// Nav-links style
+.nav > .nav-link {
+  color: white;
+  opacity: 0.7;
+  &:hover {
+    color: $red;
+    font-weight: bolder;
+  }
+}
+.nav > .active {
+  opacity: 1;
+  font-weight: bolder;
 }
