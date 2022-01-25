@@ -4,18 +4,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .intro-text {
-    display:flex;
-    flex-direction: column;
-    p:first-child {
-      margin-top: 32px;
-    }
-    a {
-      align-self: center;
-    }
-  }
 }
 
+.intro-text {
+  display:flex;
+  flex-direction: column;
+  p:first-child {
+    margin-top: 32px;
+  }
+  a {
+    align-self: center;
+  }
+}
 
 // GUARANTEES "Pourquoi voyager avec Cubacolor ?"
 
